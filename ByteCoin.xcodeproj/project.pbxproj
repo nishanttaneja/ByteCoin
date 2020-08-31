@@ -19,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B41F0D6524FD039200FADB09 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		B4251A2C24FCDB5A00DA1BF5 /* ByteCoin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ByteCoin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4251A2F24FCDB5A00DA1BF5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B4251A3124FCDB5A00DA1BF5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -55,6 +56,7 @@
 		B4251A2324FCDB5A00DA1BF5 = {
 			isa = PBXGroup;
 			children = (
+				B41F0D6524FD039200FADB09 /* README.md */,
 				B4251A2E24FCDB5A00DA1BF5 /* ByteCoin */,
 				B4251A2D24FCDB5A00DA1BF5 /* Products */,
 			);

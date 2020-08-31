@@ -18,7 +18,7 @@ struct CoinManager {
     var delegate: CoinManagerDelegate?
     private let apiKey: String = PrivateData.apiKey
     private let baseUrl: String = "https://rest.coinapi.io/v1/exchangerate/BTC"
-    private let currencies = [ "AUD", "BRL","CAD","CNY","EUR","GBP","HKD","IDR","ILS","INR","JPY","MXN","NOK","NZD","PLN","RON","RUB","SEK","SGD","USD","ZAR"
+    private let currencies = [ "AUD", "BRL","CAD","EUR","GBP","HKD","IDR","INR","JPY","MXN","NZD","PLN","RUB","SGD","USD","ZAR"
     ]
     
     // Read Currency List

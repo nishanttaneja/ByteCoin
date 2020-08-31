@@ -1,7 +1,6 @@
 #  ByteCoin
 An iOS Application which fetches the latest Bitcoin exchange rate for user selected currency.
-
-<b> NOTE </b>: Update your [API Key](#CoinAPI) in PrivateData (path: Models/PrivateData.swift) 
+<b> NOTE : Update your [API Key](#CoinAPI) in PrivateData (path: Models/PrivateData.swift) </b> 
 
 ## Screenshot
 <img src="HomeScreen.png" width="250">
@@ -20,9 +19,6 @@ An iOS Application which fetches the latest Bitcoin exchange rate for user selec
 ### CoinAPI
 - <a href="https://www.coinapi.io/pricing?apikey"> Get a free API key</a>
 - <a href="https://docs.coinapi.io/#get-specific-rate"> Get specific Bitcoin exchange rate </a> - https://rest.coinapi.io/v1/exchangerate/BTC/{specific_currency}?apikey={your_api_key}
-
-## Usage
-Update your API Key in PrivateData (path: Models/PrivateData.swift) 
 
 ## Credits
 - <a href="https://developer.apple.com/documentation"> Apple Developer Documentation </a>

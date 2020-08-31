@@ -43,6 +43,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B41F0D6424FD037000FADB09 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B4251A3524FCDB5A00DA1BF5 /* Main.storyboard */,
+				B4251A3A24FCDB5F00DA1BF5 /* LaunchScreen.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		B4251A2324FCDB5A00DA1BF5 = {
 			isa = PBXGroup;
 			children = (
@@ -65,10 +74,9 @@
 				B4251A2F24FCDB5A00DA1BF5 /* AppDelegate.swift */,
 				B4251A3124FCDB5A00DA1BF5 /* SceneDelegate.swift */,
 				B4251A4324FCE18100DA1BF5 /* Models */,
+				B41F0D6424FD037000FADB09 /* Views */,
 				B4251A3324FCDB5A00DA1BF5 /* ViewController.swift */,
-				B4251A3524FCDB5A00DA1BF5 /* Main.storyboard */,
 				B4251A3824FCDB5F00DA1BF5 /* Assets.xcassets */,
-				B4251A3A24FCDB5F00DA1BF5 /* LaunchScreen.storyboard */,
 				B4251A3D24FCDB5F00DA1BF5 /* Info.plist */,
 			);
 			path = ByteCoin;

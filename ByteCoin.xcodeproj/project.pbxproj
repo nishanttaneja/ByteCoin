@@ -15,6 +15,7 @@
 		B4251A3C24FCDB5F00DA1BF5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4251A3A24FCDB5F00DA1BF5 /* LaunchScreen.storyboard */; };
 		B4251A4524FCE1A100DA1BF5 /* ParsedData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4251A4424FCE1A100DA1BF5 /* ParsedData.swift */; };
 		B4251A4724FCE1B300DA1BF5 /* CoinManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4251A4624FCE1B300DA1BF5 /* CoinManager.swift */; };
+		B4251A4B24FCEB7800DA1BF5 /* PrivateData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4251A4A24FCEB7800DA1BF5 /* PrivateData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		B4251A3D24FCDB5F00DA1BF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B4251A4424FCE1A100DA1BF5 /* ParsedData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParsedData.swift; sourceTree = "<group>"; };
 		B4251A4624FCE1B300DA1BF5 /* CoinManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinManager.swift; sourceTree = "<group>"; };
+		B4251A4A24FCEB7800DA1BF5 /* PrivateData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivateData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 			children = (
 				B4251A4424FCE1A100DA1BF5 /* ParsedData.swift */,
 				B4251A4624FCE1B300DA1BF5 /* CoinManager.swift */,
+				B4251A4A24FCEB7800DA1BF5 /* PrivateData.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -155,6 +158,7 @@
 				B4251A4524FCE1A100DA1BF5 /* ParsedData.swift in Sources */,
 				B4251A3424FCDB5A00DA1BF5 /* ViewController.swift in Sources */,
 				B4251A3024FCDB5A00DA1BF5 /* AppDelegate.swift in Sources */,
+				B4251A4B24FCEB7800DA1BF5 /* PrivateData.swift in Sources */,
 				B4251A3224FCDB5A00DA1BF5 /* SceneDelegate.swift in Sources */,
 				B4251A4724FCE1B300DA1BF5 /* CoinManager.swift in Sources */,
 			);

@@ -9,7 +9,7 @@
 import Foundation
 
 protocol CoinManagerDelegate {
-    func didFetchRate(_ rate: Double)
+    func didFetchRate(_ rate: Double, for currency: String)
     func didFailWithError(_ error: Error)
 }
 
@@ -33,7 +33,7 @@ struct CoinManager {
                 if let sessionError = error {self.delegate?.didFailWithError(sessionError); return}
                 guard let sessionData = data else {fatalError("error reading session data")}
                 if let rate = self.parseData(sessionData) {
-                    self.delegate?.didFetchRate(rate)
+                    self.delegate?.didFetchRate(rate, for: currency)
                 }
             }).resume()
         }

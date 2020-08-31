@@ -46,9 +46,19 @@ extension ViewController: UIPickerViewDataSource, UIPickerViewDelegate {
 extension ViewController: CoinManagerDelegate {
     func didFetchRate(_ rate: Double, for currency: String) {
         DispatchQueue.main.async {
-            self.rateLabel.text = String(format: "%.2f", rate)
+            if rate.isInt() {self.rateLabel.text = String(format: "%.0f", rate)}
+            else {self.rateLabel.text = String(format: "%.2f", rate)}
             self.currencyLabel.text = currency
         }
     }
     func didFailWithError(_ error: Error) {print(error)}
+}
+
+//MARK:- DoubleIsInt
+extension Double {
+    func isInt() -> Bool {
+        let valueAsInt = Int(self)
+        if self == Double(valueAsInt) {return true}
+        return false
+    }
 }

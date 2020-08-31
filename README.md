@@ -15,6 +15,7 @@ An iOS Application which fetches the latest Bitcoin exchange rate for user selec
 ### Custom
 - CoinManager - Deals with networking operations for fetching latest exchange rates of Bitcoin for specified currency.
 - CoinManagerDelegate - The delegate of a CoinManager object must adopt this protocol and implement its methods to implement the fetched data.
+- ParsedData - Decodable Structure for parsing exchange rate from session data of API request.
         
 ### CoinAPI
 - <a href="https://www.coinapi.io/pricing?apikey"> Get a free API key</a>
